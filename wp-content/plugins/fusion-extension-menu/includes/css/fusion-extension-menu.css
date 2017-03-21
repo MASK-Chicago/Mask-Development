@@ -1,0 +1,224 @@
+/**
+ * Styles for Fusion Menu Extension
+ */
+
+/*Main Menu*/
+
+.fsn-menu.main .navbar	{
+	border-radius:0;
+	min-height:0;
+	margin-bottom:0;
+}
+
+.fsn-menu.main .navbar-default {
+	background-color: transparent;
+	border:none;
+}
+
+.fsn-menu.main .dropdown-menu > li.h5	{
+	margin:0;
+	clear: both;
+	display:block;
+	line-height: 1.42857;
+	white-space: nowrap;
+}
+
+.fsn-menu.main .dropdown-menu > li.h5 > a	{
+	color:inherit;
+	padding:0;
+	font-weight:inherit;
+}
+
+.fsn-menu.main .dropdown-menu > li.h5 > a:hover, .fsn-menu.main .dropdown-menu > li.h5 > a:focus {
+	background-color: transparent;
+}
+
+.fsn-menu.main .dropdown-menu .dropdown-menu {
+    display: block !important;
+    float:none;
+    min-width:none;
+    position: static !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.fsn-menu.main .navbar-collapse	{
+	padding-left:0;
+	padding-right:0;
+}
+
+@media (max-width: 767px) {
+	.multi-col-nav-container	{
+		width:auto !important;
+	}
+	.mobile-searchform	{
+		margin-top:15px;
+		margin-bottom:15px;
+	}
+	.mobile-searchform .form-control	{
+		font-size:16px;
+		width:80%;
+		float:left;
+		border-radius:0;
+		border-right:none;
+		-webkit-appearance:none;
+	}
+	.mobile-searchform .btn	{
+		width:20%;
+		float:left;
+		border-radius:0;
+		padding-left:0;
+		padding-right:0;
+	}
+	.mobile-searchform .btn:after	{
+		display:none;
+	}
+	.fsn-menu.main	{
+		margin-left:-15px;
+		margin-right:-15px;
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.fsn-row > .container-fluid .fsn-menu.main	{
+		margin-left:0;
+		margin-right:0;
+		padding-left:0;
+		padding-right:0;
+	}
+	.fsn-menu.main .navbar-header	{
+		text-align:center;
+		line-height:0;
+		height:50px;
+	}
+	.fsn-menu.main .navbar-brand	{
+		display:inline-block !important;
+		padding:7px 0;
+		margin-top:8px;
+		margin-bottom:8px;
+		float:none;
+		height:34px;
+	}
+	.fsn-menu.main .navbar-brand.brand-image	{
+		padding-top:0;
+		padding-bottom:0;
+	}
+	.fsn-menu.main .navbar-brand.brand-image img	{
+		height:34px;
+		width:auto;
+	}
+	.fsn-menu.main .navbar-nav	{
+		margin-left:0;
+		margin-right:0;
+	}
+	.fsn-menu .navbar-collapse	{
+		display:block;
+		height:0;
+		border:none;
+		overflow:hidden;
+		margin-left:-15px;
+		margin-right:-15px;
+	}
+	.fsn-row > .container-fluid .fsn-menu .navbar-collapse	{
+		margin-left:0;
+		margin-right:0;
+	}
+	.fsn-menu .navbar-collapse.collapsing, .fsn-menu .navbar-collapse.in	{
+		height:auto;
+	}
+	.fsn-menu .navbar-collapse > *	{
+		opacity:0;
+		-moz-transition:opacity 0.35s;
+		-webkit-transition:opacity 0.35s;
+		transition:opacity 0.35s;
+	}
+	.fsn-menu .navbar-collapse.collapsing-out > *, .fsn-menu .navbar-collapse.collapse > *	{
+		opacity:0;	
+	}
+	.fsn-menu .navbar-collapse.collapsing-in > *, .fsn-menu .navbar-collapse.in > *	{
+		opacity:1;
+	}
+	.fsn-menu .navbar-toggle	{
+		border-radius:0;
+		margin-right:0;
+		line-height:0;
+		padding:4px 9px;
+		position:absolute;
+		top:0;
+		left:0;
+		margin-right:0;
+	}
+	.fsn-menu .navbar-toggle .material-icons	{
+		color:#333;
+	}
+	.fsn-menu .navbar-toggle > .icon-collapse	{
+		display:block;
+	}
+	.fsn-menu .navbar-toggle > .icon-collapsed	{
+		display:none;
+	}
+	.fsn-menu .navbar-toggle.collapsed > .icon-collapse	{
+		display:none;
+	}
+	.fsn-menu .navbar-toggle.collapsed > .icon-collapsed	{
+		display:block;
+	}
+	.fsn-menu .navbar-default .navbar-toggle:focus, .fsn-menu .navbar-default .navbar-toggle:hover	{
+		background:transparent;
+	}
+	.fsn-menu.main .dropdown-menu	{
+		padding:5px 0;
+	}
+	.fsn-menu.main .dropdown-menu .container-fluid	{
+		padding:0;
+	}
+	.fsn-menu.main .dropdown-menu > li.h5	{
+		padding:5px 15px;
+	}
+	.fsn-menu.main .navbar-default .navbar-nav .open .dropdown-menu>li.h5>a, .fsn-menu.main .navbar-default .navbar-nav .open .dropdown-menu>li.h5>a:hover, .fsn-menu.main .navbar-default .navbar-nav .open .dropdown-menu>li.h5>a:focus	{
+		background:transparent;
+		color:inherit;
+	}
+	.fsn-menu.main .navbar-default .navbar-nav .open .dropdown-menu>li.h5.active	{
+		background:#e7e7e7;
+	}
+	.fsn-menu.main .dropdown-menu .divider	{
+		margin-left:15px;
+		margin-right:15px;
+	}
+}
+
+@media (min-width: 768px) {
+	.fsn-menu.main .dropdown-menu {
+		border: none;
+		border-top:1px solid #efefef;
+		border-top:1px solid rgba(0, 0, 0, 0.05);
+		border-radius: 0;
+		padding:18px 3px;
+	}
+	.multi-col-nav-container.loading	{
+		display:block;
+		height:0;
+		overflow:hidden;
+		visibility:hidden;
+	}
+	.fsn-menu.main .dropdown-menu>li>a	{
+		padding-left:14px;
+		padding-right:14px;
+	}
+	.fsn-menu.main .dropdown-menu > li > a:hover, .fsn-menu.main .dropdown-menu > li > a:focus	{
+		background-color:transparent;
+	}
+	.fsn-menu.main .dropdown-menu > .active > a, .fsn-menu.main .dropdown-menu > .active > a:hover, .fsn-menu.main .dropdown-menu > .active > a:focus	{
+		background-color:transparent;
+		color:#337ab7;
+	}
+	.fsn-menu.main .dropdown-menu > li.h5	{
+		padding: 3px 14px;
+	}
+	.fsn-menu.main .dropdown-menu .divider	{
+		margin-left:14px;
+		margin-right:14px;
+	}
+}

@@ -1,0 +1,27 @@
+/**
+ * Styles for Fusion Divider Extension
+ */
+ 
+/*Divider*/
+
+.fsn-divider hr	{
+	background:transparent;
+	margin-top:20px;
+	margin-bottom:20px;
+	border:0;
+	border-top:1px solid #eeeeee;
+}
+
+.fsn-divider-vertical	{
+	display:block;
+	width:1px;
+	position:absolute;
+	left:50%;
+	background:#eee;
+}
+
+@media (max-width: 767px) {
+	.fsn-divider-vertical	{
+		display:none;
+	}
+}
