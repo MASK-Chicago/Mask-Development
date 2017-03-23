@@ -1,0 +1,21 @@
+// Links
+
+.link-dark-bg {
+    color: $link-dark-color;
+    &:hover,
+    &:focus {
+        color: $link-dark-hover-color;
+        text-decoration: $link-hover-decoration;
+    }
+}
+
+a[disabled=disabled] {
+    color: rgba(64, 64, 65, .35);
+    cursor: $cursor-disabled;
+    &:hover,
+    &:focus,
+    &.focus {
+        color: rgba(64, 64, 65, .35);
+        background-color: transparent;
+    }
+}

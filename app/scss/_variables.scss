@@ -1,0 +1,47 @@
+//== Colors
+$mask-pink: #ED2678;
+$yellow-green: #D6EA82;
+$light-blue: #D8EEE6;
+$deep-blue: #0C222C;
+$dark-gray: #212121;
+$light-gray: #F1F2F2;
+$text-gray: #404041;
+$white: #FFFFFF;
+
+
+//== Typography
+$headings-line-height: 1.2;
+$headings-font-family: 'Open Sans', sans-serif;
+$font-size-base: 14px;
+$font-size-h2: floor(($font-size-base * 2.30)); // ~32px
+$font-size-h3: ceil(($font-size-base * 1.85)); // ~26px
+$font-size-h4: ceil(($font-size-base * 1.42)); // ~20px
+$font-size-h5: floor(($font-size-base * 1.15)); // ~16px
+
+
+//== Button
+$brand-primary: $deep-blue;
+$brand-primary-neon: $yellow-green;
+$btn-primary-color: $light-gray;
+$btn-primary-color-neon:#0C222C;
+$btn-primary-dark-bg: $brand-primary-neon;
+$btn-secondary-color: #0C222C;
+$btn-secondary-color-neon: $yellow-green;
+$btn-secondary-bg: $yellow-green;
+$btn-secondary-border: darken($btn-secondary-bg, 5%) !default;
+$padding-df-vertical: 8px;
+$padding-df-horizontal: 12px;
+$padding-xs-horizontal: 8px;
+$font-size-large: 16px;
+$font-size-small: 13px;
+$line-height-large: 1.4444444;
+$line-height-default: 1.2;
+$line-height-small: 1.3;
+$btn-border-radius-base: 5px;
+
+//== Link
+$link-color: $text-gray;
+$link-hover-color: $mask-pink;
+$link-hover-decoration: none;
+$link-dark-color: $yellow-green;
+$link-dark-hover-color: #69F0AE;
