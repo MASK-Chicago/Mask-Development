@@ -17,6 +17,9 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/print";
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
 
+// Style guide classes
+@import "app/scss/living-style-guide";
+
 // Core CSS
 @import "app/scss/atoms/links";
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
@@ -61,20 +64,5 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 
-.style-guide-section {
-    margin-bottom: 60px;
-    h2 {
-        font-weight: 600;
-    }
-}
 
-.dark-background {
-    background: #0C222C;
-    margin: 0 20px;
-    display: inline-block;
-    p {
-        color: white;
-    }
-}
 
-//change classs name and make new partial for .dark-background

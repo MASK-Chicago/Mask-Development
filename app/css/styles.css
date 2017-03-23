@@ -1672,6 +1672,18 @@ th {
 .glyphicon-menu-up:before {
   content: "\e260"; }
 
+.style-guide-section {
+  margin-bottom: 60px; }
+  .style-guide-section h2 {
+    font-weight: 600; }
+
+.style-guide-dark-background {
+  background: #0C222C;
+  margin: 0 20px;
+  display: inline-block; }
+  .style-guide-dark-background p {
+    color: white; }
+
 .link-dark-bg {
   color: #D6EA82; }
   .link-dark-bg:hover, .link-dark-bg:focus {
@@ -6468,15 +6480,3 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-
-.style-guide-section {
-  margin-bottom: 60px; }
-  .style-guide-section h2 {
-    font-weight: 600; }
-
-.dark-background {
-  background: #0C222C;
-  margin: 0 20px;
-  display: inline-block; }
-  .dark-background p {
-    color: white; }
