@@ -45,3 +45,17 @@ The Tech Stack:
 * Database host: localhost
 * Table prefix: *wp_vqbhrd142o_*
 14. Finish up and login with the mask admin credentials.
+
+## Workflow
+
+### Development
+1. Regularly export data from Flywheel so that dev instance has an up-to-date copy of pages/posts/components/etc.
+2. Updates to CSS and JS should be done in wp-content/themes/fusion-base.
+
+### Build & Deploy Themes
+1. Package up the theme by executing 'npm run package' from wp-content/themes/fusion-base.
+2. This will create a zip file (foundationpress_[date]-[time].zip) in wp-content/themes/fusion-base/packaged
+3. Upload the zip file into WP Themes.
+
+### Build & Deploy Plugins
+1. TBD
