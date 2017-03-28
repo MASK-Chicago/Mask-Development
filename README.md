@@ -10,9 +10,10 @@ The Tech Stack:
 4. [FoundationPress Theme](https://github.com/olefredrik/FoundationPress) (Extract of build tasks in /assets)
 5. [Fusion Base Theme](https://github.com/agencydominion/fusion-base)
 
-##Setup
+## Setup
 
-###Downloads and Installation
+### Downloads and Installation
+
 1. Download and install MAMP 4 or something with equivalent PHP and MySQL versions
 * https://www.mamp.info/en/downloads/
 2. Clone https://github.com/MASK-Chicago/Mask-Development
@@ -23,7 +24,8 @@ The Tech Stack:
 * Web Server Document Root should be set to your Mask-Development folder
 5. Start MAMP.
  
-###Database Changes
+### Database Changes
+
 6. Open MAMP Web Start Page > Tools > phpMyAdmin
 * http://localhost:8888/MAMP/index.php?page=phpmyadmin&language=English
 7. Create a new database called wordpress
@@ -32,13 +34,14 @@ The Tech Stack:
 9. Click on table *wp_vqbhrd142o_options*. Click on Browse tab at the top.
 10.   For table entries with option_name siteurl and home , edit their option_values to be http://localhost:8888 instead of http://masksite.flywheelsites.com
  
-###Wordpress Instance
-11.   Go to http://localhost:8888/wp-admin/
-12.   Select English as language of choice
-13.   Enter the following for database information:
+### Wordpress Instance
+
+11. Go to http://localhost:8888/wp-admin/
+12. Select English as language of choice
+13. Enter the following for database information:
 * Database name: wordpress
 * Database username: root
 * Database password: root
 * Database host: localhost
 * Table prefix: *wp_vqbhrd142o_*
-14.   Finish up and login with the mask admin credentials.
+14. Finish up and login with the mask admin credentials.
