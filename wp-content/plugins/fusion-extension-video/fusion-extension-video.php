@@ -7,7 +7,7 @@
  * Plugin Name: Fusion : Extension - Video
  * Plugin URI: http://www.agencydominion.com/fusion/
  * Description: Video Extension Package for Fusion.
- * Version: 1.1.3
+ * Version: 1.2.0
  * Author: Agency Dominion
  * Author URI: http://agencydominion.com
  * License: GPL2

@@ -219,6 +219,7 @@ class FusionButton	{
 		$button_style_options = array(
 			'btn btn-default' => __('Default', 'fusion-extension-button'),
 			'btn btn-primary' => __('Primary', 'fusion-extension-button'),
+			'btn btn-secondary' => __('Secondary', 'fusion-extension-button'),
 			'btn btn-success' => __('Success', 'fusion-extension-button'),
 			'btn btn-info' => __('Info', 'fusion-extension-button'),
 			'btn btn-warning' => __('Warning', 'fusion-extension-button'),

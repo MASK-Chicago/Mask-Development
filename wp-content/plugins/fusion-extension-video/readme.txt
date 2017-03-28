@@ -3,7 +3,7 @@ Contributors: agencydominion
 Tags: admin, custom, builder, page builder, layout builder, layout, page, columns, multi-column, grid, responsive, shortcode, bootstrap, video, youtube, vimeo, videojs
 Requires at least: 3.9
 Tested up to: 4.7
-Stable tag: 1.1.3
+Stable tag: 1.2.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,10 @@ Yes. Fusion is designed to be compatible with themes that adhere to WordPress' t
 We have designed the Fusion core plugin to be fast, light, and easily expandable. We have also built a number of extension plugins so that you choose which functionality you would like to add based on the needs of your website.
 
 == Changelog ==
+
+= 1.2.0 =
+* Add Mute option for self-hosted videos.
+* Update Vimeo and YouTube embeds to support SSL.
 
 = 1.1.3 =
 * Fix bug to ensure script enqueuing on all video types.

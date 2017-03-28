@@ -1,0 +1,13 @@
+/**
+ * Styles for Fusion Blog Extension
+ */
+
+.fsn-blog .hentry	{
+	margin-top:20px;
+	padding-top:20px;
+}
+
+.fsn-blog .hentry:first-child	{
+	margin-top:0;
+	padding-top:0;
+}

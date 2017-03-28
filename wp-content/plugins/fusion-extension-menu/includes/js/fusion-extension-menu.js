@@ -38,7 +38,7 @@ jQuery(document).ready(function() {
 
 //toggle vs hover
 jQuery(document).ready(function() {
-	if (!Modernizr.touch) {
+	if (!Modernizr.touchevents) {
 		var dropdownToggles = jQuery('.fsn-menu.main').find('.dropdown-toggle');
 		dropdownToggles.each(function() {
 			var dropdownToggle = jQuery(this);

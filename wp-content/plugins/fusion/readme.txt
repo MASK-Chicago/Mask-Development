@@ -3,7 +3,7 @@ Contributors: agencydominion
 Tags: admin, custom, builder, page builder, layout builder, layout, page, columns, multi-column, grid, responsive, shortcode, bootstrap
 Requires at least: 3.9
 Tested up to: 4.7
-Stable tag: 1.1.14
+Stable tag: 1.1.15
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,6 +63,9 @@ Yes. Fusion is designed to be compatible with themes that adhere to WordPress' t
 We have designed the Fusion core plugin to be fast, light, and easily expandable. We have also built a number of extension plugins so that you choose which functionality you would like to add based on the needs of your website.
 
 == Changelog ==
+
+= 1.1.15 =
+* Update Modernizr to latest version and simplify loading of MatchMedia polyfill.
 
 = 1.1.14 =
 * Resolve conflict with other plugins or themes that include the Mobile Detect library.
