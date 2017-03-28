@@ -1,3 +1,7 @@
+wp-content/uploads/
+wp-content/themes/foundationpress_*
+wp-content/themes/fusion-base/node_modules/
+wp-content/themes/fusion-base/packaged/
 wp-admin
 wp-includes
 license.txt
