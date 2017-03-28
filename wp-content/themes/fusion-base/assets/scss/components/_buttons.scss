@@ -6,3 +6,58 @@
   border-radius: 3px;
   border: none;
 }
+
+// Alternate buttons
+// --------------------------------------------------
+
+.btn-primary-neon .btn {
+  @include button-variant($btn-primary-color-neon, $btn-primary-dark-bg, $btn-primary-border);
+}
+
+.btn-secondary {
+  @include button-variant($btn-secondary-color, $btn-primary-bg, $btn-primary-border);
+  background-color: transparent;
+  &:hover,
+  &:focus,
+  &.focus {
+    color: $link-hover-color;
+    border-color: $link-hover-color;
+    background-color: transparent;
+    text-decoration: none;
+  }
+}
+
+.btn-secondary-neon .btn {
+  @include button-variant($btn-secondary-color-neon, $btn-primary-dark-bg, $btn-secondary-border);
+  background-color: transparent;
+  &:hover,
+  &:focus,
+  &.focus {
+    color: $link-dark-hover-color;
+    border-color: $link-dark-hover-color;
+    background-color: transparent;
+    text-decoration: none;
+  }
+}
+
+// Button Sizes
+// --------------------------------------------------
+
+.btn-lg {
+  // line-height: ensure even-numbered height of button next to large input
+  @include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-large, $line-height-large, $btn-border-radius-base);
+}
+.btn-df {
+    @include button-size($padding-df-vertical, $padding-df-horizontal, $font-size-small, $line-height-default, $btn-border-radius-base);
+}
+.btn-sm {
+  // line-height: ensure proper height of button next to small input
+  @include button-size($padding-small-vertical, $padding-small-horizontal, $font-size-small, $line-height-small, $btn-border-radius-base);
+}
+.btn-xs {
+  @include button-size($padding-xs-vertical, $padding-xs-horizontal, $font-size-small, $line-height-small, $btn-border-radius-base);
+}
+
+// body {
+//     background: red !important;
+// }

@@ -63,11 +63,12 @@ add_action( 'wp_enqueue_scripts', 'fsn_base_script_enqueue' );
 function fsn_base_script_enqueue() {
 	//enqueue scripts and styles
 	wp_enqueue_script('jquery');
-	wp_enqueue_style('bootstrap', trailingslashit( get_template_directory_uri() ) .'css/bootstrap.min.css', array(), '3.3.6');
+	wp_enqueue_style('mask-styles', trailingslashit( get_template_directory_uri() ) .'assets/stylesheets/foundation.css', array(), '');
 	wp_enqueue_script('bootstrap', trailingslashit( get_template_directory_uri() ) .'js/vendor/bootstrap.min.js', array('jquery'), '3.3.5', true);
 	wp_enqueue_script( 'modernizr', trailingslashit( get_template_directory_uri() ) .'js/vendor/modernizr-2.8.3-respond-1.4.2.min.js', false, '2.8.3');
 	wp_enqueue_style('fsn_base_styles', get_stylesheet_uri(), array('bootstrap'));
-	
+	wp_enqueue_style('openSansFont', 'http://fonts.googleapis.com/css?family=Open+Sans', array());
+	wp_enqueue_style('permanentMarkerFont', 'http://fonts.googleapis.com/css?family=Permanent+Marker', array());
 	if ( is_singular() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );	
 	}

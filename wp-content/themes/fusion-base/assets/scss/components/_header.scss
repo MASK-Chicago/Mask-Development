@@ -1,0 +1,20 @@
+
+.mask-home, .mask-logo {
+	position: relative;
+	background: url(../../assets/images/mask-logo.png);
+    min-height: 50px;
+    
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+    a {
+	    display: block;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 0;
+	    opacity: 0;
+    }
+}
